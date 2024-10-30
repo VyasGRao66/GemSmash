@@ -60,7 +60,7 @@ int main()
     sf::Text currentScore;
     currentScore.setFont(font);
     currentScore.setPosition(10, 10);
-    currentScore.setCharacterSize(20);
+    currentScore.setCharacterSize(15);
     currentScore.setFillColor(sf::Color::Green);
     std::stringstream ss;
 
