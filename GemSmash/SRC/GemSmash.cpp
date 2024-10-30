@@ -313,8 +313,6 @@ void clickRelease() {
                         gems[h] = gem1;
                         if (checkRow(gem1, gem2, i, h) == false) {
 
-                            std::cout << "jgvh";
-
                             gem1.x = clickStart.x;
                             gem1.y = clickStart.y;
 
